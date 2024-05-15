@@ -1,0 +1,16 @@
+section{
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.div{
+    border: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
